@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.single-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  -webkit-border-radius: 6px;
+}
+
+.img-cover {
+  background-size: cover;
+  background-position: center;
+}
+
+.txt-title {
+  color: $font-color-common;
+  font-size: $font-size-content;
+  line-height: 18px;
+}
+
+.txt-x-title {
+  color: $font-color-common;
+  font-size: $font-size-title-small;
+}
+
+.txt-desc {
+  color: $font-color-secondary;
+  font-size: $font-size-desc;
+  line-height: 14px;
+}
+
+.txt-input {
+  color: $font-color-input;
+}
+
+.txt-head {
+  font-weight: bold;
+  color: #909399;
+  font-size: 14px;
+}
+
+.bottom-outer-content {
+  padding-bottom: 60px;
+}
+
+
